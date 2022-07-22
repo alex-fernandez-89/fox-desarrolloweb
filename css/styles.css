@@ -641,6 +641,7 @@ progress {
 }
 
 @media (min-width: 576px) {
+  
   .container-sm, .container {
     max-width: 540px;
   }
@@ -3789,6 +3790,11 @@ textarea.form-control-lg {
 
 .dropdown-menu.show {
   display: block;
+}
+
+header img{
+  width: 60%;
+  height: 90vh;
 }
 
 .dropdown-header {
@@ -11479,7 +11485,10 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/horizontalnegro2.png");
+  background-color: #000 ;
+  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, 
+                                     rgba(255, 255, 255, 0.1) 100%), 
+                                     url("../assets/img/2.svg");*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
